@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { Inter, Comforter } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
 const geistSans = localFont({
