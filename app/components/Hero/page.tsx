@@ -1,12 +1,12 @@
 import Image, { StaticImageData } from "next/image";
 
-interface HeroProps {
+interface IProps {
   imageSrc: StaticImageData;
   altTxt: string;
   text: string;
 }
 
-export default function Hero({ imageSrc, altTxt, text }: HeroProps) {
+export default function Hero({ imageSrc, altTxt, text }: IProps) {
   return (
     <div className="h-screen relative">
       <div className="absolute -z-10 inset-0">
